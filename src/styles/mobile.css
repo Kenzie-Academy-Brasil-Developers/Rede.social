@@ -1,0 +1,268 @@
+.title-page {
+  display: flex;
+  justify-content: space-between;
+  width: 425px;
+  height: 76px;
+  align-items: center;
+  gap: 120px;
+  position: fixed;
+  margin-top: -50px;
+  z-index: 1;
+}
+
+header {
+  margin-top: 143px;
+}
+
+form {
+  margin-top: 60px;
+}
+.title-page h1 {
+  font-size: 20px;
+}
+
+.title-page button {
+  background: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.dev {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-top: -95px;
+  margin-left: 16px;
+  gap: 7px;
+  margin-bottom: -37px;
+  padding-top: 78px;
+}
+.dev img {
+  max-width: 100%;
+  width: 42px;
+  height: 42px;
+  margin-left: 26px;
+}
+
+.dev-name {
+  margin-right: 240px;
+}
+
+.dev-name h2 {
+  width: 124px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dev-name h3 {
+  width: 126px;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 5px;
+}
+
+.title-post {
+  width: 378px;
+  height: 52px;
+  border-radius: 4px;
+  margin-left: 16px;
+  padding-left: 10px;
+}
+
+.description-post {
+  margin-top: 22px;
+  width: 378px;
+  height: 130px;
+  border-radius: 4px;
+  margin-left: 16px;
+  padding-left: 10px;
+}
+
+.but-post {
+  width: 69px;
+  height: 38px;
+  border-radius: 4px;
+  margin-left: 337px;
+  margin-top: 19px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.suggestion {
+  margin-top: 38px;
+  margin-left: 16px;
+  width: 269px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  position: absolute;
+  z-index: -1;
+}
+
+aside {
+  display: flex;
+  overflow-y: scroll;
+}
+
+.dev-mobile {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-top: 119px;
+  margin-left: 20px;
+  gap: 7px;
+  margin-bottom: 40px;
+  width: 230px;
+}
+
+.dev-mobile img {
+  max-width: 100%;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 21px;
+}
+
+.dev-name-mobile {
+  margin-right: 240px;
+}
+
+.dev-name-mobile h2 {
+  width: 124px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 3px;
+}
+
+.dev-name-mobile h3 {
+  width: 126px;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 5px;
+}
+.dev-name-mobile button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  margin-top: 10px;
+  margin-right: 73px;
+  cursor: pointer;
+}
+
+.title-posts {
+  margin-top: 38px;
+  margin-left: 16px;
+  width: 269px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dev-post {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  gap: 7px;
+  margin-bottom: 28px;
+  width: 230px;
+}
+
+.dev-post img {
+  max-width: 100%;
+  width: 42px;
+  height: 42px;
+}
+
+span {
+  font-size: 13px;
+}
+
+.desc-post {
+  width: 330px;
+  height: 90px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20;
+  line-height: 27px;
+  margin-right: 75px;
+}
+
+.desc-post2 {
+  width: 348px;
+  height: 84px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 56px;
+}
+
+.like-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.desc-but {
+  width: 82px;
+  height: 32px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.img-like {
+  display: flex;
+  margin-right: 259px;
+  margin-top: 10px;
+  gap: 5px;
+  cursor: pointer;
+}
+

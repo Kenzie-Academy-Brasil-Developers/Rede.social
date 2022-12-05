@@ -1,0 +1,134 @@
+@media (min-width: 426px) {
+  .title-page {
+    width: 100%;
+    height: 76px;
+  }
+
+  form {
+    margin-top: 101px;
+  }
+
+  .dev img {
+    margin-left: 142px;
+  }
+
+  .dev-name {
+    margin-right: 1097px;
+  }
+
+
+  .title-post {
+    width: 625px;
+    margin-left: 135px;
+  }
+
+  .description-post {
+    width: 625px;
+    height: 130px;
+    margin-left: 135px;
+
+  }
+
+  .but-post {
+    margin-left: 707px;
+  }
+
+  .suggestion {
+    margin-top: 8px;
+  }
+
+  aside {
+    width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    left: 900px;
+    margin-top: -372px;
+    overflow: hidden;
+    height: 414px;
+    top: 80px;
+    cursor: pointer;
+  }
+
+  .dev-mobile {
+    display: flex;
+    margin-top: -184px;
+    margin-left: 20px;
+    margin-bottom: -192px;
+
+  }
+
+  .dev-mobile img {
+    max-width: 100%;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 21px;
+    margin-bottom: -81px;
+  }
+
+  .dev-name-mobile {
+    margin-right: 240px;
+    margin-top: 78px;
+  }
+
+
+  .dev-name-mobile button {
+    margin-top: -30px;
+    position: absolute;
+    left: 304px;
+  }
+
+  .title-posts {
+    margin-left: 132px;
+    margin-bottom: -40px;
+  }
+
+  .dev-post {
+    margin-left: 130px;
+    margin-bottom: 18px;
+  }
+
+  .dev-post img {
+    margin-top: 83px;
+  }
+
+  span {
+    font-size: 13px;
+  }
+
+  .desc-post {
+    width: 534px;
+    height: 72px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20;
+    line-height: 27px;
+    margin-right: 759px;
+  }
+
+  .desc-post2 {
+    width: 496px;
+    height: 62px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 797px;
+  }
+
+  .like-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .desc-but {
+    margin-left: 132px;
+  }
+
+  .img-like {
+    margin-right: 1147px;
+  }
+}

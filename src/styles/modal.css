@@ -1,0 +1,171 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  height: 100vh;
+  bottom: 0;
+  width: 100vw;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  margin: 0 auto;
+  justify-content: center;
+  width: 761px;
+  height: 516px;
+  background-color:var(--whiteFixed-color);
+  border-radius: 14px;
+  padding: 35px;
+  margin-top: 150px;
+}
+
+.dev {
+  width: 640px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-top: -95px;
+  margin-left: -10px;
+  gap: 7px;
+  margin-bottom: -37px;
+  padding-top: 78px;
+}
+
+.show-modal {
+  display: block;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.close-modal {
+  height: 60px;
+  background-color: var(--whiteFixed-color);
+  border: none;
+  font-size: 20px;
+  margin-left: 740px;
+  margin-top: -62px;
+  position: absolute;
+}
+
+.dev-modal {
+  width: 640px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-top: -93px;
+  gap: 7px;
+  padding-top: 78px;
+  margin-left: -156px;
+}
+
+.dev-modal img {
+  margin-left: 142px;
+  max-width: 100%;
+  width: 42px;
+  height: 42px;
+}
+
+.dev-name-modal {
+  margin-right: 1097px;
+}
+
+.dev-name-modal h2 {
+  width: 124px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dev-name-modal h3 {
+  width: 126px;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 5px;
+}
+
+.title_modal {
+  width: 760px;
+  height: 80px;
+  top: 229px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  position: absolute;
+}
+
+.description_modal{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  position: absolute;
+  width: 713px;
+  height: 252px;
+  top: 348px;
+}
+
+@media(max-width:425px){
+  .modal {
+    margin: 0 auto;
+    justify-content: center;
+    width: 319px;
+    height: 516px;
+    background-color: var(--whiteFixed-color);
+    border-radius: 14px;
+    padding: 35px;
+    margin-top: 81px;
+    width: 324px;
+    height: 502px;
+}
+
+.title_modal {
+  width: 352px;
+  height: 80px;
+  top: 172px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  position: absolute;
+  right: 30px;
+}
+
+.description_modal {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  position: absolute;
+  width: 348px;
+  height: 252px;
+  top: 297px;
+  right: 36px;
+}
+
+.close-modal {
+  height: 60px;
+  background-color: var(--whiteFixed-color);
+  border: none;
+  font-size: 20px;
+  margin-left: 310px;
+  margin-top: -62px;
+  position: absolute;
+}
+
+}

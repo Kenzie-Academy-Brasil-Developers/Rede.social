@@ -1,0 +1,50 @@
+.title-page {
+    background-color: var(--grey1-color);
+  }
+  
+
+
+  .title-page h1 {
+    color: var(--whiteFixed-color);
+  }
+  
+  .title-page button {
+    color: var(--whiteFixed-color);
+  }
+  
+  .title-post {
+    background: var(--whiteFixed-color);
+    border: 2px solid var(--grey4-color);
+  }
+  
+  .description-post {
+    background: var(--whiteFixed-color);
+    border: 2px solid var(--grey4-color);
+  }
+  
+  .but-post {
+    background: var(--brand-1-color);
+    border: 2px solid var(--whiteFixed-color);
+    color: var(--whiteFixed-color);
+  }
+  
+  .dev-name-mobile button {
+    color: var(--grey1-color);
+  }
+  
+  .desc-post {
+    color: var(--grey1-color);
+  }
+  
+  .desc-post2 {
+    color: var(--grey2-color);
+  }
+  
+  .desc-but {
+    background: var(--grey1-color);
+    border: 2px solid var(--grey1-color);
+    color: var(--whiteFixed-color);
+  }
+  
+
+  

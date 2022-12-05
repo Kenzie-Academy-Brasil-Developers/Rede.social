@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+*{
+    margin: 0 auto;
+    font-family: Inter;
+    text-decoration: none;
+    list-style-type: none
+    
+}
+
+:root {
+
+    /* BRAND COLORS */
+    --brand-1-color:#4263EB;
+    --brand-2-color:#364FC7;
+    --grey0-color:#0A0C0D;
+    --grey1-color:#212529;
+    --grey2-color:#495057;
+    --grey3-color:#868E96;
+    --grey4-color:#DEE2E6;
+    --grey5-color:#F8F9FA;
+    --grey-opacity-1:rgba(33, 37, 41, 0.5);
+    --whiteFixed-color:#FFFFFF;
+    --like-color:#D7443E;
+
+    /* FONT FAMILY */
+    --inter-font:'Inter';
+
+    /* TOKEN */
+
+}
