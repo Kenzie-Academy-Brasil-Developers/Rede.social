@@ -1,0 +1,37 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top:var(--margin-top-8);
+    margin-left: -0.5rem;
+  }
+
+  .title-post {
+    width:var(--width-11);
+    height: 3.25rem;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+    padding-left: 0.625rem;
+  }
+  
+  .description-post {
+    margin-top:var(--margin-top-5);
+    width:var(--width-11);
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+    padding-left: 0.625rem;
+    height: 8.125rem;
+  }
+
+  @media (min-width: 75rem) {
+
+    .title-post {
+        width: 39.0625rem;
+        margin-left: 8.4375rem;
+      }
+    
+      .description-post {
+        width: 39.0625rem;
+        height: 8.125rem;
+        margin-left: 8.4375rem;
+      }
+  }

@@ -1,9 +1,9 @@
+
+
 .title-page {
     background-color: var(--grey1-color);
   }
   
-
-
   .title-page h1 {
     color: var(--whiteFixed-color);
   }
@@ -45,6 +45,13 @@
     border: 2px solid var(--grey1-color);
     color: var(--whiteFixed-color);
   }
+
+  .modal-background {
+    background-color:var(--modal-color-background);
+  }
   
+  .modal-container {
+    background-color:var(--whiteFixed-color);
+  }
 
   

@@ -1,0 +1,51 @@
+header {
+    margin-top:var(--margin-top-10);
+  }
+
+.title-page {
+  display: flex;
+  justify-content: space-between;
+  width: var(--width-12);
+  height: var(--height-12);
+  align-items: center;
+  position: fixed;
+  margin-top: var(--margin-top-2);
+  z-index: 1;
+  margin-left: -8px;
+}
+
+
+.title-page h1 {
+    font-size: var( --font-size-5);
+    margin-left: 11px;
+  }
+  
+  .title-page button {
+    background: none;
+    border: none;
+    font-style:var(--font-style);
+    font-weight:var(--font-weight-1);
+    font-size:var( --font-size-3);
+    line-height: 16px;
+    cursor: pointer;
+    margin-right: 0.6875rem;
+  }
+  
+
+
+@media (min-width: 75rem) {
+  .title-page {
+    width: 100%;
+    height: 4.75rem;
+  }
+
+  .title-page h1 {
+    font-size: var( --font-size-5);
+    margin-left: 8.6875rem;
+  }
+
+  .title-page button {
+    margin-right: 8.375rem;
+  }
+}
+

@@ -1,9 +1,20 @@
-const buttoggleModal = document.querySelectorAll('[data-show-modal]')
-
-for (let i = 0; i < buttoggleModal.length; i++) {
-    buttoggleModal[i].addEventListener('click',function(){
-        let valuedataModalcontrol = buttoggleModal[i].getAttribute('data-show-modal')
-        document.getElementById(valuedataModalcontrol).classList.toggle('show-modal')
-    })    
-}
-
+const openModal = (children) => {
+  const body = document.querySelector("body");
+  const backgroundContainer = document.createElement("section");
+  const mainConatiner = document.createElement("section");
+  const closeModalButton = document.createElement("button");
+  backgroundContainer.classList.add("modal-background");
+  mainConatiner.classList.add("modal-container");
+  closeModalButton.classList.add("modal-close");
+  closeModalButton.innerText = "X";
+  backgroundContainer.addEventListener("click", (event) => {
+    const { className } = event.target;
+    if (className === "modal-background" || className === "modal-close") {
+      backgroundContainer.remove();
+    }
+  });
+  mainConatiner.appendChild(closeModalButton);
+  mainConatiner.append(children);
+  backgroundContainer.appendChild(mainConatiner);
+  body.appendChild(backgroundContainer);
+};

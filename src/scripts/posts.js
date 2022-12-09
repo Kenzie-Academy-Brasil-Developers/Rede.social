@@ -27,6 +27,5 @@ const posts = [
     text: "A Programação Funcional é uma orientação focada na programação declarativa. Conhecendo mais a programação funcional a partir de códigos podemos nos deparar de primeira com o conceito.",
     user: "Júlia Martins",
     stack: "Devop's",
-    
   },
 ];

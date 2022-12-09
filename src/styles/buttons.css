@@ -1,0 +1,53 @@
+.but-post {
+  width: var(--width-3);
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  margin-left: 20.875rem;
+  margin-top: var(--margin-top-4);
+  cursor: pointer;
+  font-weight:var(--font-weight-3);
+}
+
+.desc-but {
+  width: var(--width-4);
+  height: 1.875rem;
+  border-radius: 0.25rem;
+  margin-left: 1.25rem;
+  margin-top: var(--margin-top-3);
+  font-style:var(--font-style);
+  font-weight:var(--font-weight-3);
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  cursor: pointer;
+}
+
+.dev-name-mobile button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--width-2);
+  height: var(--height-5);
+  font-style:var(--font-style);
+  font-weight:--font-weight-2;
+  font-size:var(--font-size-1);
+  line-height: 1.0625rem;
+  margin-right: 4.5625rem;
+  cursor: pointer;
+}
+
+@media (min-width: 75rem) {
+  .but-post {
+    margin-left: 43.875rem;
+    height: var(--heigth-9);
+  }
+
+  .desc-but {
+    margin-left: 8.25rem;
+  }
+
+  .dev-name-mobile button {
+    margin-top: -2.5625rem;
+    position: absolute;
+    left: 19rem;
+  }
+}
